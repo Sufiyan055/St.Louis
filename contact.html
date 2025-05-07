@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleContact.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tutoriol</title>
+  </head>
+  <body>
+    <!-- Contact - Top Section Navbar -->
+
+    <header class="headerSection">
+      <h1><a href="#">ST.LOUIS</a></h1>
+      <span class="menuToggle" id="menuToggleid" onclick="toggleNav()"></span>
+      <nav class="navBar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <a href="contact.html" class="contactBtnOfNav insideTheNavBar-SM"
+            >Contact Us</a
+          >
+        </ul>
+        <h2 class="schoolNameInsideTheNav"><a href="#">ST.LOUIS</a></h2>
+      </nav>
+      <a href="contact.html" class="contactBtnOfNav outsideTheNavBar-LV"
+        >Contact Us</a
+      >
+    </header>
+
+    <!-- this is for behind the navbar -->
+    <div class="navbackgroundBehind"></div>
+
+    <section class="contactSectionWallpaper">
+      <h2>Contact Us</h2>
+    </section>
+
+    <!-- Main Contact Section  -->
+
+    <section class="mainContactSection">
+      <div class="addressPhoneEmail">
+        <div class="contactSmallBox">
+          <a href="#" class="iconA"><i class="fa-solid fa-location-dot"></i></a>
+          <div class="contactMiniBox">
+            <strong>Main Branch</strong>
+            <address>
+              6,7,8, Sheetal Tower, Anjuman School Lane, Naya Nagar, Mira Road
+              (E)
+            </address>
+          </div>
+        </div>
+        <div class="contactSmallBox">
+          <a href="tel:+917304888579" class="iconA"
+            ><i class="fa-solid fa-phone"></i
+          ></a>
+          <div class="contactMiniBox">
+            <strong>Call Us</strong>
+            <a href="tel:+917304888579">730488879</a>
+          </div>
+        </div>
+        <div class="contactSmallBox">
+          <a href="mailto:shaikhsaffan088@gmail.com" class="iconA"
+            ><i class="fa-regular fa-envelope"></i
+          ></a>
+          <div class="contactMiniBox">
+            <strong>Email Us</strong>
+            <a href="mailto:shaikhsaffan088@gmail.com"
+              >shaikhsaffan088@gmail.com</a
+            >
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="contact-form">
+        <h6>NEED HELP?</h6>
+        <h1>Send Us A Message</h1>
+        <form action="https://formspree.io/f/mqkvqkjn" method="POST">
+          <div class="form-group">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Your Name"
+              required
+            />
+            <input
+              type="number"
+              name="number"
+              id="phone"
+              placeholder="Your number"
+              required
+            />
+          </div>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your Email"
+            required
+          />
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Message"
+            rows="4"
+            cols="50"
+            required
+          ></textarea>
+          <button type="submit" class="btnEmail">Send on Email</button>
+          <span class="OrWord"> Or </span>
+          <span class="btnWhatSapp" onclick="sendtoWhatsapp()">
+            Send on Whatsapp
+          </span>
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact - Footer -->
+
+    <footer class="footerSection">
+      <div class="schoolName">
+        <h1><a href="#">ST.Louis</a></h1>
+        <p>
+          ST.Louis is committed to nurturing young minds through a blend of
+          academic excellence and strong ethical values. Our dedicated faculty
+          and modern facilities provide a supportive environment where students
+          grow intellectually, spiritually, and socially to become confident and
+          responsible individuals.
+        </p>
+        <div class="socioLink">
+          <a href="#" target="_blank" class="fbookA"
+            ><i class="fa-brands fa-facebook fbook"></i
+          ></a>
+          <a href="#" target="_blank" class="twitterA"
+            ><i class="fa-brands fa-twitter twitter"></i
+          ></a>
+          <a href="#" target="_blank" class="instagramA"
+            ><i class="fa-brands fa-instagram instagram"></i
+          ></a>
+          <a href="#" target="_blank" class="wsappA"
+            ><i class="fa-brands fa-whatsapp wsapp"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="getInTouch">
+        <p class="getInTouchLine">Get In Touch</p>
+        <address>
+          <a href="#"><i class="fa-solid fa-location-dot"></i></a>6,7,8, Sheetal
+          Tower, Anjuman School Lane, Naya Nagar, Mira Road (E)
+        </address>
+        <a href="mailto:sufiyan007882@gmail.com.in?subject=Enquiry"
+          ><i class="fa-solid fa-envelope"></i>sufiyan007882@gmail.com</a
+        >
+        <a href="tel:+7304888579"
+          ><i class="fa-solid fa-phone"></i>+7304888579</a
+        >
+      </div>
+
+      <div class="quickLinks">
+        <p class="quickLinkLine">Quick Links</p>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="admission.html">Admission</a></li>
+      </div>
+
+      <div class="newsLetterSubscribe">
+        <input type="text" placeholder="Name" />
+        <input type="email" placeholder="Email I'd" />
+        <a href="#" class="SubBtn">Submit Now</a>
+      </div>
+    </footer>
+
+    <!-- Script Js -->
+    <script src="scriptforAll.js"></script>
+  </body>
+</html>

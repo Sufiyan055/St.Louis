@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>St.Louis English High School</title>
+  </head>
+  <body>
+    <!-- Header Section Start -->
+
+    <header class="headerSection">
+      <h1><a href="#">ST.LOUIS</a></h1>
+      <span class="menuToggle" id="menuToggleid" onclick="toggleNav()"></span>
+      <nav class="navBar">
+        <ul>
+          <li><a href="index.html" class="activeNav">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <a href="contact.html" class="contactBtnOfNav insideTheNavBar-SM"
+            >Contact Us</a
+          >
+        </ul>
+        <h2 class="schoolNameInsideTheNav"><a href="#">ST.LOUIS</a></h2>
+      </nav>
+      <a href="contact.html" class="contactBtnOfNav outsideTheNavBar-LV"
+        >Contact Us</a
+      >
+    </header>
+    <!-- Header Section End -->
+    <!-- Hero Section Start -->
+    <section class="heroSection">
+      <div class="heroContent">
+        <img
+          src="images/school-bag.png"
+          alt="i1"
+          class="bg-1 parallax"
+          data-speed="4"
+        />
+        <img
+          src="images/back-to-school.png"
+          alt="i1"
+          class="bg-2 parallax"
+          data-speed="4"
+        />
+        <img
+          src="images/kindergarten.png"
+          alt="i1"
+          class="bg-3 parallax"
+          data-speed="4"
+        />
+        <img
+          src="images/pen.png"
+          alt="i1"
+          class="bg-4 parallax"
+          data-speed="4"
+        />
+        <img
+          src="images/graduation-hat.png"
+          alt="i1"
+          class="bg-5 parallax"
+          data-speed="4"
+        />
+        <!--  -->
+        <div class="leftHeroContent">
+          <h2>Welcome to St.Louis English High School</h2>
+          <p>Celebrating 20 Years of Excellence</p>
+          <p>
+            Every child deserves a nurturing environment <br />
+            for academic and personal growth.
+          </p>
+          <div class="hero-btn">
+            <a href="#" class="btn">Enroll Now</a>
+            <a href="#" class="btn2">Learn More</a>
+          </div>
+        </div>
+        <!--  -->
+        <div class="rightHeroContent">
+          <img src="images/fullPlaceholderImage.png" alt="Hero Image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Three Boxes Content Start -->
+    <section class="ThreeBoxsOfCompliment">
+      <div class="service-card">
+        <div class="card">
+          <div class="cir-icon">
+            <img src="images/001-graduation-hat.png" alt="graduation-hat" />
+          </div>
+          <div class="service-head">
+            <strong>Qualified Educators</strong>
+            <div class="line"></div>
+          </div>
+          <div class="service-txt">
+            <p>
+              Our experienced teachers provide personalized instruction in a
+              supportive environment.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cir-icon">
+            <img src="images/009-backpack-1.png" alt="graduation-hat" />
+          </div>
+          <div class="service-head">
+            <strong>Comprehensive Curriculum</strong>
+            <div class="line"></div>
+          </div>
+          <div class="service-txt">
+            <p>
+              Balanced academics, arts, and physical education to shape
+              well-rounded students.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cir-icon">
+            <img
+              src="images/011-book-of-black-cover-closed.png"
+              alt="graduation-hat"
+            />
+          </div>
+          <div class="service-head">
+            <strong>Proven Track Record</strong>
+            <div class="line"></div>
+          </div>
+          <div class="service-txt">
+            <p>
+              Two decades of delivering excellence in education and student
+              achievement.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Three Boxes Content End -->
+
+    <!-- Counting Section Starts -->
+
+    <section class="achivementCount">
+      <div class="wrapper">
+        <div class="container">
+          <div>
+            <span class="num" data-target="400">00</span>
+            <span class="plusNumCount">+</span>
+          </div>
+          <span class="text">Students Enrolled</span>
+          <p class="pLine">
+            Our school is home to a thriving community of learners from
+            Pre-Primary to Higher Grades.
+          </p>
+        </div>
+        <div class="container">
+          <div>
+            <span class="num" data-target="15">00</span>
+            <span class="plusNumCount">+</span>
+          </div>
+          <span class="text"> Qualified Teachers</span>
+          <p class="pLine">
+            Dedicated and experienced educators committed to academic and moral
+            excellence.
+          </p>
+        </div>
+        <div class="container">
+          <div>
+            <span class="num" data-target="6">00</span>
+            <span class="plusNumCount">+</span>
+          </div>
+          <span class="text">Enrichment Programs</span>
+          <p class="pLine">
+            Offering Deeniyat, Urdu, arts, sports, and life skills for holistic
+            development.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Counting Section End -->
+
+    <!-- Testinomial Section Starts -->
+
+    <section class="containerSlider">
+      <div class="wrapper">
+        <i id="left" class="fa-solid fa-arrow-left"></i>
+        <ul class="carousel">
+          <li class="card">
+            <div class="img">
+              <img src="images/jessica.jpg" alt="Images" draggable="false" />
+            </div>
+            <p class="reviews">
+              St. Louis English High School has shaped me into the confident and
+              responsible individual I am today. The teachers genuinely care
+              about each student’s success, and the values I learned here will
+              stay with me forever.
+            </p>
+            <p>— Aarav Mehta</p>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img src="images/StImg1.webp" alt="Images" draggable="false" />
+            </div>
+            <p class="reviews">
+              St. Louis English High School has shaped me into the confident and
+              responsible individual I am today. The teachers genuinely care
+              about each student’s success, and the values I learned here will
+              stay with me forever.
+            </p>
+            <p class="reviewName">— Riya Fernandes</p>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img src="images/StImg2.webp" alt="Images" draggable="false" />
+            </div>
+            <p class="reviews">
+              St. Louis English High School has shaped me into the confident and
+              responsible individual I am today. The teachers genuinely care
+              about each student’s success, and the values I learned here will
+              stay with me forever.
+            </p>
+            <p class="reviewName">— Aarav Mehta</p>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img src="images/StImg3.webp" alt="Images" draggable="false" />
+            </div>
+            <p class="reviews">
+              St. Louis English High School has shaped me into the confident and
+              responsible individual I am today. The teachers genuinely care
+              about each student’s success, and the values I learned here will
+              stay with me forever.
+            </p>
+            <p class="reviewName">— Aarav Mehta</p>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img src="images/StImg4.webp" alt="Images" draggable="false" />
+            </div>
+            <p class="reviews">
+              St. Louis English High School has shaped me into the confident and
+              responsible individual I am today. The teachers genuinely care
+              about each student’s success, and the values I learned here will
+              stay with me forever.
+            </p>
+            <p class="reviewName">— Aarav Mehta</p>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img src="images/StImg5.jpg" alt="Images" draggable="false" />
+            </div>
+            <p class="reviews">
+              St. Louis English High School has shaped me into the confident and
+              responsible individual I am today. The teachers genuinely care
+              about each student’s success, and the values I learned here will
+              stay with me forever.
+            </p>
+            <p class="reviewName">— Aarav Mehta</p>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img src="images/smileGirl.jpg" alt="Images" draggable="false" />
+            </div>
+            <p class="reviews">
+              St. Louis English High School has shaped me into the confident and
+              responsible individual I am today. The teachers genuinely care
+              about each student’s success, and the values I learned here will
+              stay with me forever.
+            </p>
+            <p class="reviewName">— Aarav Mehta</p>
+          </li>
+        </ul>
+        <i id="right" class="fa-solid fa-arrow-right"></i>
+      </div>
+    </section>
+
+    <!-- Testinomial Section End -->
+
+    <!-- Apply btn bg Image Starts-->
+
+    <section class="bgApplyEnquiryBtn">
+      <p>Take your first step to your goal by appling now</p>
+      <a href="admissions.html">Enquiry & Addmission</a>
+    </section>
+
+    <!-- Apply btn bg Image End-->
+
+    <!-- Footer Section Starts-->
+
+    <footer class="footerSection">
+      <div class="schoolName">
+        <h1><a href="#">ST.Louis</a></h1>
+        <p>
+          ST.Louis is committed to nurturing young minds through a blend of
+          academic excellence and strong ethical values. Our dedicated faculty
+          and modern facilities provide a supportive environment where students
+          grow intellectually, spiritually, and socially to become confident and
+          responsible individuals.
+        </p>
+        <div class="socioLink">
+          <a href="#" target="_blank" class="fbookA"
+            ><i class="fa-brands fa-facebook fbook"></i
+          ></a>
+          <a href="#" target="_blank" class="twitterA"
+            ><i class="fa-brands fa-twitter twitter"></i
+          ></a>
+          <a href="#" target="_blank" class="instagramA"
+            ><i class="fa-brands fa-instagram instagram"></i
+          ></a>
+          <a href="#" target="_blank" class="wsappA"
+            ><i class="fa-brands fa-whatsapp wsapp"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="getInTouch">
+        <p class="getInTouchLine">Get In Touch</p>
+        <address>
+          <a href="#"><i class="fa-solid fa-location-dot"></i></a>6,7,8, Sheetal
+          Tower, Anjuman School Lane, Naya Nagar, Mira Road (E)
+        </address>
+        <a href="mailto:sufiyan007882@gmail.com.in?subject=Enquiry"
+          ><i class="fa-solid fa-envelope"></i>sufiyan007882@gmail.com</a
+        >
+        <a href="tel:+7304888579"
+          ><i class="fa-solid fa-phone"></i>+7304888579</a
+        >
+      </div>
+
+      <div class="quickLinks">
+        <p class="quickLinkLine">Quick Links</p>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="admission.html">Admission</a></li>
+      </div>
+
+      <div class="newsLetterSubscribe">
+        <input type="text" placeholder="Name" />
+        <input type="email" placeholder="Email I'd" />
+        <a href="#" class="SubBtn">Submit Now</a>
+      </div>
+    </footer>
+
+    <!-- Footer Section Ends-->
+
+    <!-- Script -->
+    <script src="scriptforAll.js"></script>
+    <script src="script.js"></script>
+
+    <!--  -->
+
+    <script>
+      const wrapper = document.querySelector(".wrapper");
+      const carousel = document.querySelector(".carousel");
+      const arrowBtns = document.querySelectorAll(".wrapper i");
+      const firstCardwidth = document.querySelector(".card").offsetWidth;
+      const carouselChildrens = [...carousel.children];
+
+      let isDragging = false,
+        startX,
+        startScrollLeft,
+        timeoutId;
+
+      // Get the number of cards that can fit in the carousel at once
+      let cardPerview = Math.round(carousel.offsetWidth / firstCardwidth);
+
+      //Insert copies of the last few cards to begining of carousel for infinte scrolling
+      carouselChildrens
+        .slice(-cardPerview)
+        .reverse()
+        .forEach((card) => {
+          carousel.insertAdjacentHTML("afterbegin", card.outerHTML);
+        });
+
+      //Insert copies of the fisrt few cards to end of carousel for infinte scrolling
+      carouselChildrens.slice(0, cardPerview).forEach((card) => {
+        carousel.insertAdjacentHTML("beforeend", card.outerHTML);
+      });
+
+      // Add event listeners for the arrow buttons to scroll the carousel left and right
+      arrowBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          carousel.scrollLeft +=
+            btn.id === "left" ? -firstCardwidth : firstCardwidth;
+        });
+      });
+
+      const dragstart = (e) => {
+        isDragging = true;
+        carousel.classList.add("dragging");
+        // Records the initial cursor and scroll postion of the carousel
+        startX = e.pageX;
+        startScrollLeft = carousel.scrollLeft;
+      };
+
+      const dragging = (e) => {
+        if (!isDragging) return; // if isDragging is false return from here
+        // Updates the scroll position of the carousel based on the cursor movement
+        carousel.scrollLeft = startScrollLeft - (e.pageX - startX);
+      };
+
+      const dragStop = () => {
+        isDragging = false;
+        carousel.classList.remove("dragging");
+      };
+
+      const autoPlay = () => {
+        /* if (window.innerWidth < 800) return; */ // Return if window is smaller than 800
+        // Autoplay the carousel after every 2500 ms
+        timeoutId = setTimeout(
+          () => (carousel.scrollLeft += firstCardwidth),
+          2000
+        );
+      };
+
+      autoPlay();
+
+      const infiniteScroll = () => {
+        // If carousel is at the beginning scroll to the end
+        if (carousel.scrollLeft === 0) {
+          carousel.classList.add("no-transition");
+          carousel.scrollLeft = carousel.scrollWidth - 2 * carousel.offsetWidth;
+          carousel.classList.remove("no-transition");
+        }
+        // If carousel is at the end scroll to the beginning
+        else if (
+          Math.ceil(carousel.scrollLeft) ===
+          carousel.scrollWidth - carousel.offsetWidth
+        ) {
+          carousel.classList.add("no-transition");
+          carousel.scrollLeft = carousel.offsetWidth;
+          carousel.classList.remove("no-transition");
+        }
+        // Clear existing timeout & start autoplay if move is not hovering over carousel
+        clearTimeout(timeoutId);
+        if (!wrapper.matches(":hover")) autoPlay();
+      };
+
+      carousel.addEventListener("mousedown", dragstart);
+      carousel.addEventListener("mousemove", dragging);
+      document.addEventListener("mouseup", dragStop);
+      carousel.addEventListener("scroll", infiniteScroll);
+      wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
+      wrapper.addEventListener("mouseleave", autoPlay);
+    </script>
+  </body>
+</html>

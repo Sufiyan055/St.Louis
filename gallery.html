@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu"
+    />
+    <title>St.Louis English High School</title>
+  </head>
+  <body>
+    <!-- Header Section Start -->
+
+    <header class="headerSection">
+      <h1><a href="#">ST.LOUIS</a></h1>
+      <span class="menuToggle" id="menuToggleid" onclick="toggleNav()"></span>
+      <nav class="navBar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="gallery.html" class="activeNav">Gallery</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <a href="contact.html" class="contactBtnOfNav insideTheNavBar-SM"
+            >Contact Us</a
+          >
+        </ul>
+        <h2 class="schoolNameInsideTheNav"><a href="#">ST.LOUIS</a></h2>
+      </nav>
+      <a href="contact.html" class="contactBtnOfNav outsideTheNavBar-LV"
+        >Contact Us</a
+      >
+    </header>
+
+    <!-- this is for behind the navbar -->
+    <div class="navbackgroundBehind"></div>
+
+    <!-- Header Section End -->
+
+    <!-- Photo Section Start -->
+    <section class="gallerySectionWallpaper">
+      <h2>Our Gallery</h2>
+    </section>
+    <!-- Photo Section End -->
+
+    <!-- Full Image After Click Start -->
+    <div class="fullImage" id="fullImageBox">
+      <img src="images/Faculty.jpg" id="fullImg" alt="Image" />
+      <span onclick="closeFullImg()">X</span>
+    </div>
+    <!-- Full Image After Click End -->
+
+    <!-- Photos Section Start  -->
+    <section class="galleryPhotosSection">
+      <img
+        src="images/galleryOne.webp"
+        onclick="openFullImg(this.src)"
+        alt="Image"
+      />
+
+      <img
+        src="images/galleryTwo.webp"
+        onclick="openFullImg(this.src)"
+        alt="Image"
+      />
+
+      <img
+        src="images/bgNavImage.jpg"
+        onclick="openFullImg(this.src)"
+        alt="Image"
+      />
+
+      <img
+        src="images/apply.webp"
+        onclick="openFullImg(this.src)"
+        alt="Image"
+      />
+
+      <img
+        src="images/StImg3.webp"
+        onclick="openFullImg(this.src)"
+        alt="Image"
+      />
+
+      <img
+        src="images/StImg4.webp"
+        onclick="openFullImg(this.src)"
+        alt="Image"
+      />
+
+      <img
+        src="images/StImg1.webp"
+        onclick="openFullImg(this.src)"
+        alt="Image"
+      />
+
+      <img
+        src="images/StImg2.webp"
+        onclick="openFullImg(this.src)"
+        alt="Image"
+      />
+
+      <img
+        src="images/StImg5.jpg"
+        onclick="openFullImg(this.src)"
+        alt="Image"
+      />
+      <img
+        src="images/bgNavImage.jpg"
+        onclick="openFullImg(this.src)"
+        alt="Image"
+      />
+
+      <img
+        src="images/StImg4.webp"
+        onclick="openFullImg(this.src)"
+        alt="Image"
+      />
+
+      <img
+        src="images/StImg2.webp"
+        onclick="openFullImg(this.src)"
+        alt="Image"
+      />
+    </section>
+    <!-- Photos Section End  -->
+
+    <!-- Apply btn bg Image Starts-->
+
+    <section class="bgApplyEnquiryBtn">
+      <p>Take your first step to your goal by appling now</p>
+      <a href="admissions.html">Enquiry & Addmission</a>
+    </section>
+
+    <!-- Apply btn bg Image End-->
+
+    <!-- Footer Section Starts-->
+
+    <footer class="footerSection">
+      <div class="schoolName">
+        <h1><a href="#">ST.Louis</a></h1>
+        <p>
+          ST.Louis is committed to nurturing young minds through a blend of
+          academic excellence and strong ethical values. Our dedicated faculty
+          and modern facilities provide a supportive environment where students
+          grow intellectually, spiritually, and socially to become confident and
+          responsible individuals.
+        </p>
+        <div class="socioLink">
+          <a href="#" target="_blank" class="fbookA"
+            ><i class="fa-brands fa-facebook fbook"></i
+          ></a>
+          <a href="#" target="_blank" class="twitterA"
+            ><i class="fa-brands fa-twitter twitter"></i
+          ></a>
+          <a href="#" target="_blank" class="instagramA"
+            ><i class="fa-brands fa-instagram instagram"></i
+          ></a>
+          <a href="#" target="_blank" class="wsappA"
+            ><i class="fa-brands fa-whatsapp wsapp"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="getInTouch">
+        <p class="getInTouchLine">Get In Touch</p>
+        <address>
+          <a href="#"><i class="fa-solid fa-location-dot"></i></a>6,7,8, Sheetal
+          Tower, Anjuman School Lane, Naya Nagar, Mira Road (E)
+        </address>
+        <a href="mailto:sufiyan007882@gmail.com.in?subject=Enquiry"
+          ><i class="fa-solid fa-envelope"></i>sufiyan007882@gmail.com</a
+        >
+        <a href="tel:+7304888579"
+          ><i class="fa-solid fa-phone"></i>+7304888579</a
+        >
+      </div>
+
+      <div class="quickLinks">
+        <p class="quickLinkLine">Quick Links</p>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="admission.html">Admission</a></li>
+      </div>
+
+      <div class="newsLetterSubscribe">
+        <input type="text" placeholder="Name" />
+        <input type="email" placeholder="Email I'd" />
+        <a href="#" class="SubBtn">Submit Now</a>
+      </div>
+    </footer>
+
+    <!-- Footer Section Ends-->
+
+    <!-- Script -->
+    <!-- Script -->
+
+    <!--  -->
+    <script src="scriptforAll.js"></script>
+
+    <script>
+      let fullImgBox = document.getElementById("fullImageBox");
+      let fullImg = document.getElementById("fullImg");
+
+      function openFullImg(pic) {
+        fullImgBox.style.display = "flex";
+        fullImg.src = pic;
+      }
+
+      function closeFullImg() {
+        fullImgBox.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
